@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f516e6c5655190262939480113e38b53 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f516e6c5655190262939480113e38b53" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f516e6c5655190262939480113e38b53 = L.map(
+                "map_f516e6c5655190262939480113e38b53",
+                {
+                    center: [-6.209383, 106.7925779],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_723fcde78ad55e0cd89e4556c77a508c = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_723fcde78ad55e0cd89e4556c77a508c.addTo(map_f516e6c5655190262939480113e38b53);
+        
+    
+            var marker_fb3236b9871cca58dab57d65b772041e = L.marker(
+                [-6.209383, 106.7925779],
+                {
+}
+            ).addTo(map_f516e6c5655190262939480113e38b53);
+        
+    
+            var icon_cdb61cc2a5b844c2c19f553100a3651a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_16a27e1527c9cd0d837dce4f12ad575c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7c39e97f9b9a47cf11aa9726e961d660 = $(`<div id="html_7c39e97f9b9a47cf11aa9726e961d660" style="width: 100.0%; height: 100.0%;">Lokasi mobil</div>`)[0];
+                popup_16a27e1527c9cd0d837dce4f12ad575c.setContent(html_7c39e97f9b9a47cf11aa9726e961d660);
+            
+        
+
+        marker_fb3236b9871cca58dab57d65b772041e.bindPopup(popup_16a27e1527c9cd0d837dce4f12ad575c)
+        ;
+
+        
+    
+    
+                marker_fb3236b9871cca58dab57d65b772041e.setIcon(icon_cdb61cc2a5b844c2c19f553100a3651a);
+            
+    
+            var marker_9df5813ba65a376f1d4803d1af751c93 = L.marker(
+                [-6.2229428, 106.8032035],
+                {
+}
+            ).addTo(map_f516e6c5655190262939480113e38b53);
+        
+    
+            var icon_320473590006e6ea663ada77ea62fb5d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5c7b3313ea38f4c212fce397ae817864 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8428cd06f6890e41d3a1ad1d90c18954 = $(`<div id="html_8428cd06f6890e41d3a1ad1d90c18954" style="width: 100.0%; height: 100.0%;">SPKLU Voltron<br>Alamat : ARTOTEL Gelora Senayan Jakarta, Jl. Pintu Satu Senayan No.11 1, RT.1/RW.3, Gelora, Kecamatan Tanah Abang, Kota Jakarta Pusat</div>`)[0];
+                popup_5c7b3313ea38f4c212fce397ae817864.setContent(html_8428cd06f6890e41d3a1ad1d90c18954);
+            
+        
+
+        marker_9df5813ba65a376f1d4803d1af751c93.bindPopup(popup_5c7b3313ea38f4c212fce397ae817864)
+        ;
+
+        
+    
+    
+            marker_9df5813ba65a376f1d4803d1af751c93.bindTooltip(
+                `<div>
+                     SPKLU Voltron
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9df5813ba65a376f1d4803d1af751c93.setIcon(icon_320473590006e6ea663ada77ea62fb5d);
+            
+    
+            var marker_ea6a74a599425a850e1427e2070730cc = L.marker(
+                [-6.2211419, 106.7991438],
+                {
+}
+            ).addTo(map_f516e6c5655190262939480113e38b53);
+        
+    
+            var icon_da3f5426bb728c6f1436cfa64b3c1beb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b259a5d5f8c701d27d409b4806f62d99 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0a5d88bfc46e7993d97ee3b750ed1980 = $(`<div id="html_0a5d88bfc46e7993d97ee3b750ed1980" style="width: 100.0%; height: 100.0%;">SPKLU BMW Destination<br>Alamat : Jl. Asia Afrika, RT.1/RW.3, Gelora, Kecamatan Tanah Abang, Kota Jakarta Pusat</div>`)[0];
+                popup_b259a5d5f8c701d27d409b4806f62d99.setContent(html_0a5d88bfc46e7993d97ee3b750ed1980);
+            
+        
+
+        marker_ea6a74a599425a850e1427e2070730cc.bindPopup(popup_b259a5d5f8c701d27d409b4806f62d99)
+        ;
+
+        
+    
+    
+            marker_ea6a74a599425a850e1427e2070730cc.bindTooltip(
+                `<div>
+                     SPKLU BMW Destination
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ea6a74a599425a850e1427e2070730cc.setIcon(icon_da3f5426bb728c6f1436cfa64b3c1beb);
+            
+    
+            var marker_4ca8a9a37118d1a3800c6faf86c39ebb = L.marker(
+                [-6.2129599, 106.7959685],
+                {
+}
+            ).addTo(map_f516e6c5655190262939480113e38b53);
+        
+    
+            var icon_b5490a0b8f3523550e70aef914839917 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_75797c6c13d10e8335ff87dba27a3e7f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9a7a620228180062fab5ec544897e9cf = $(`<div id="html_9a7a620228180062fab5ec544897e9cf" style="width: 100.0%; height: 100.0%;">SPKLU Charge+<br>Alamat : Jl. Palmerah Sel. RT.4, RT.4/RW.2, Gelora, Tanah Abang, Central Jakarta City</div>`)[0];
+                popup_75797c6c13d10e8335ff87dba27a3e7f.setContent(html_9a7a620228180062fab5ec544897e9cf);
+            
+        
+
+        marker_4ca8a9a37118d1a3800c6faf86c39ebb.bindPopup(popup_75797c6c13d10e8335ff87dba27a3e7f)
+        ;
+
+        
+    
+    
+            marker_4ca8a9a37118d1a3800c6faf86c39ebb.bindTooltip(
+                `<div>
+                     SPKLU Charge+
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4ca8a9a37118d1a3800c6faf86c39ebb.setIcon(icon_b5490a0b8f3523550e70aef914839917);
+            
+    
+            var marker_8ec00aa8b43bbf5cab7390ffb4db2060 = L.marker(
+                [-6.207706, 106.7947264],
+                {
+}
+            ).addTo(map_f516e6c5655190262939480113e38b53);
+        
+    
+            var icon_b350ef1dbb24ad88af2d6e594a39790e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4bb278be5d50245842bfb029c012e655 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4ca469696e1c37417b98539ecf533e2d = $(`<div id="html_4ca469696e1c37417b98539ecf533e2d" style="width: 100.0%; height: 100.0%;">SPKLU Charge+<br>Alamat : Jl. Palmerah Barat No.1, RT.1/RW.2, Gelora, Kecamatan Tanah Abang</div>`)[0];
+                popup_4bb278be5d50245842bfb029c012e655.setContent(html_4ca469696e1c37417b98539ecf533e2d);
+            
+        
+
+        marker_8ec00aa8b43bbf5cab7390ffb4db2060.bindPopup(popup_4bb278be5d50245842bfb029c012e655)
+        ;
+
+        
+    
+    
+            marker_8ec00aa8b43bbf5cab7390ffb4db2060.bindTooltip(
+                `<div>
+                     SPKLU Charge+
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8ec00aa8b43bbf5cab7390ffb4db2060.setIcon(icon_b350ef1dbb24ad88af2d6e594a39790e);
+            
+    
+            var marker_6c680972eb59c6b98b46401dcb67051b = L.marker(
+                [-6.1992332, 106.8229281],
+                {
+}
+            ).addTo(map_f516e6c5655190262939480113e38b53);
+        
+    
+            var icon_be8de118afb9f5e14594b24f344a0449 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7d9f9be3c6cc03f161398d521dce99f7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1076e965a20762be6ada2c9022390b66 = $(`<div id="html_1076e965a20762be6ada2c9022390b66" style="width: 100.0%; height: 100.0%;">SPKLU Charge+<br>Alamat : Jl. M.H. Thamrin No.10, RT.14/RW.20, Kb. Melati, Kecamatan Tanah Abang</div>`)[0];
+                popup_7d9f9be3c6cc03f161398d521dce99f7.setContent(html_1076e965a20762be6ada2c9022390b66);
+            
+        
+
+        marker_6c680972eb59c6b98b46401dcb67051b.bindPopup(popup_7d9f9be3c6cc03f161398d521dce99f7)
+        ;
+
+        
+    
+    
+            marker_6c680972eb59c6b98b46401dcb67051b.bindTooltip(
+                `<div>
+                     SPKLU Charge+
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6c680972eb59c6b98b46401dcb67051b.setIcon(icon_be8de118afb9f5e14594b24f344a0449);
+            
+    
+            var marker_9cb71605efceba9603fed194b2ed1aac = L.marker(
+                [-6.1988679, 106.8238569],
+                {
+}
+            ).addTo(map_f516e6c5655190262939480113e38b53);
+        
+    
+            var icon_5064b0cd1e79f58ab8e2fd549de880e6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_66cd2632c814eb9dc5f456f4f399caa7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e41cd4006632d2392f42639f855385fd = $(`<div id="html_e41cd4006632d2392f42639f855385fd" style="width: 100.0%; height: 100.0%;">SPKLU Voltron<br>Alamat : The City Tower, Jl. MH Thamrin No.8</div>`)[0];
+                popup_66cd2632c814eb9dc5f456f4f399caa7.setContent(html_e41cd4006632d2392f42639f855385fd);
+            
+        
+
+        marker_9cb71605efceba9603fed194b2ed1aac.bindPopup(popup_66cd2632c814eb9dc5f456f4f399caa7)
+        ;
+
+        
+    
+    
+            marker_9cb71605efceba9603fed194b2ed1aac.bindTooltip(
+                `<div>
+                     SPKLU Voltron
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9cb71605efceba9603fed194b2ed1aac.setIcon(icon_5064b0cd1e79f58ab8e2fd549de880e6);
+            
+    
+            var marker_913b6bae42cb31b762d1596bffa4e0eb = L.marker(
+                [-6.1982506, 106.840808],
+                {
+}
+            ).addTo(map_f516e6c5655190262939480113e38b53);
+        
+    
+            var icon_703686050fd5d5553ca4b9836e2cc3ab = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7ba82a10ada60cf2cbed948332f82340 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a41b43fd4c6e5f0b1599ae00e8aaf101 = $(`<div id="html_a41b43fd4c6e5f0b1599ae00e8aaf101" style="width: 100.0%; height: 100.0%;">SPKLU Terra Charge<br>Alamat : Menteng Apartments, Jl. Pegangsaan Barat No.Kav.6-12, RT.16/RW.5, Menteng</div>`)[0];
+                popup_7ba82a10ada60cf2cbed948332f82340.setContent(html_a41b43fd4c6e5f0b1599ae00e8aaf101);
+            
+        
+
+        marker_913b6bae42cb31b762d1596bffa4e0eb.bindPopup(popup_7ba82a10ada60cf2cbed948332f82340)
+        ;
+
+        
+    
+    
+            marker_913b6bae42cb31b762d1596bffa4e0eb.bindTooltip(
+                `<div>
+                     SPKLU Terra Charge
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_913b6bae42cb31b762d1596bffa4e0eb.setIcon(icon_703686050fd5d5553ca4b9836e2cc3ab);
+            
+    
+            var marker_9ec904464012e29dc0532125397f94b9 = L.marker(
+                [-6.1951477, 106.8499896],
+                {
+}
+            ).addTo(map_f516e6c5655190262939480113e38b53);
+        
+    
+            var icon_7c1cc5d0cfa4f902dba8b209a552af63 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5c61a327df1937b829c510c30a938890 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0b85d1218e0d447e1b0e11001b9549ff = $(`<div id="html_0b85d1218e0d447e1b0e11001b9549ff" style="width: 100.0%; height: 100.0%;">SPKLU Voltron<br>Alamat : Jl. Salemba Raya No.Kav.31, RT.1/RW.5, Paseban, Kecamatan Senen</div>`)[0];
+                popup_5c61a327df1937b829c510c30a938890.setContent(html_0b85d1218e0d447e1b0e11001b9549ff);
+            
+        
+
+        marker_9ec904464012e29dc0532125397f94b9.bindPopup(popup_5c61a327df1937b829c510c30a938890)
+        ;
+
+        
+    
+    
+            marker_9ec904464012e29dc0532125397f94b9.bindTooltip(
+                `<div>
+                     SPKLU Voltron
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9ec904464012e29dc0532125397f94b9.setIcon(icon_7c1cc5d0cfa4f902dba8b209a552af63);
+            
+    
+            var marker_67795acc5d31f6555ade2a96915903be = L.marker(
+                [-6.1910405, 106.824299],
+                {
+}
+            ).addTo(map_f516e6c5655190262939480113e38b53);
+        
+    
+            var icon_a585b51473d517638277aec63064c305 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a77677f10b73e19a8e5b1b0b0afc1323 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5a0002510ef0d5cbe9a57c4d7019ddbc = $(`<div id="html_5a0002510ef0d5cbe9a57c4d7019ddbc" style="width: 100.0%; height: 100.0%;">SPKLU Voltron<br>Alamat : Jl. Riau No.5-7, RT.9/RW.5, Gondangdia</div>`)[0];
+                popup_a77677f10b73e19a8e5b1b0b0afc1323.setContent(html_5a0002510ef0d5cbe9a57c4d7019ddbc);
+            
+        
+
+        marker_67795acc5d31f6555ade2a96915903be.bindPopup(popup_a77677f10b73e19a8e5b1b0b0afc1323)
+        ;
+
+        
+    
+    
+            marker_67795acc5d31f6555ade2a96915903be.bindTooltip(
+                `<div>
+                     SPKLU Voltron
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_67795acc5d31f6555ade2a96915903be.setIcon(icon_a585b51473d517638277aec63064c305);
+            
+    
+            var marker_af41382f7e145159ef715188ea6b1be3 = L.marker(
+                [-6.1865827, 106.8229942],
+                {
+}
+            ).addTo(map_f516e6c5655190262939480113e38b53);
+        
+    
+            var icon_aa677f0003abbc64584a96d2ae2a7adc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6135b2a3590cd8c916f22558a13914f0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_04e810dcbaab2a8e8b9bc0d35f90d6a3 = $(`<div id="html_04e810dcbaab2a8e8b9bc0d35f90d6a3" style="width: 100.0%; height: 100.0%;">SPKLU Voltron<br>Alamat : Jl. M.H. Thamrin No.12, RT.2/RW.1, Kb. Sirih</div>`)[0];
+                popup_6135b2a3590cd8c916f22558a13914f0.setContent(html_04e810dcbaab2a8e8b9bc0d35f90d6a3);
+            
+        
+
+        marker_af41382f7e145159ef715188ea6b1be3.bindPopup(popup_6135b2a3590cd8c916f22558a13914f0)
+        ;
+
+        
+    
+    
+            marker_af41382f7e145159ef715188ea6b1be3.bindTooltip(
+                `<div>
+                     SPKLU Voltron
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_af41382f7e145159ef715188ea6b1be3.setIcon(icon_aa677f0003abbc64584a96d2ae2a7adc);
+            
+    
+            var marker_80f4ceb3019b4076f314f12cf015b888 = L.marker(
+                [-6.1799124, 106.8221607],
+                {
+}
+            ).addTo(map_f516e6c5655190262939480113e38b53);
+        
+    
+            var icon_049bf3b56a66e0b1c17b5629913b2100 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ee71fee091b3a1f85c3f020f63ef2901 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8024e073322c9980bdbdaeae26d35368 = $(`<div id="html_8024e073322c9980bdbdaeae26d35368" style="width: 100.0%; height: 100.0%;">SPKLU Voltron<br>Alamat : Jl. Medan Merdeka Barat No.21, RT.2/RW.3, Gambir</div>`)[0];
+                popup_ee71fee091b3a1f85c3f020f63ef2901.setContent(html_8024e073322c9980bdbdaeae26d35368);
+            
+        
+
+        marker_80f4ceb3019b4076f314f12cf015b888.bindPopup(popup_ee71fee091b3a1f85c3f020f63ef2901)
+        ;
+
+        
+    
+    
+            marker_80f4ceb3019b4076f314f12cf015b888.bindTooltip(
+                `<div>
+                     SPKLU Voltron
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_80f4ceb3019b4076f314f12cf015b888.setIcon(icon_049bf3b56a66e0b1c17b5629913b2100);
+            
+    
+            var marker_7fb005ce6f282788eb68716c04cd7860 = L.marker(
+                [-6.1816694, 106.8349978],
+                {
+}
+            ).addTo(map_f516e6c5655190262939480113e38b53);
+        
+    
+            var icon_5af9564d8ab102ce44e4dfdfb2fad215 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4834e3f48f29534774286380aa10291b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f79b51b093e3e89889d1299e4aa81bea = $(`<div id="html_f79b51b093e3e89889d1299e4aa81bea" style="width: 100.0%; height: 100.0%;">SPKLU Voltron<br>Alamat : Jl. Prajurit KKO Usman dan Harun No.44-48, RT.7/RW.1, Gambir</div>`)[0];
+                popup_4834e3f48f29534774286380aa10291b.setContent(html_f79b51b093e3e89889d1299e4aa81bea);
+            
+        
+
+        marker_7fb005ce6f282788eb68716c04cd7860.bindPopup(popup_4834e3f48f29534774286380aa10291b)
+        ;
+
+        
+    
+    
+            marker_7fb005ce6f282788eb68716c04cd7860.bindTooltip(
+                `<div>
+                     SPKLU Voltron
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7fb005ce6f282788eb68716c04cd7860.setIcon(icon_5af9564d8ab102ce44e4dfdfb2fad215);
+            
+    
+            var marker_ae5569e46c5f54a3986fafa8b014fe48 = L.marker(
+                [-6.1724633, 106.8402026],
+                {
+}
+            ).addTo(map_f516e6c5655190262939480113e38b53);
+        
+    
+            var icon_47f65894da1147b02fec32107b7dfc2f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5a328658ca7bead851c8cf7ab07d351f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d60d343976f3be2142e7dec1ad1788e4 = $(`<div id="html_d60d343976f3be2142e7dec1ad1788e4" style="width: 100.0%; height: 100.0%;">SPKLU Voltron<br>Alamat : Jl. Senen Raya No.135 137, RW.2, Senen</div>`)[0];
+                popup_5a328658ca7bead851c8cf7ab07d351f.setContent(html_d60d343976f3be2142e7dec1ad1788e4);
+            
+        
+
+        marker_ae5569e46c5f54a3986fafa8b014fe48.bindPopup(popup_5a328658ca7bead851c8cf7ab07d351f)
+        ;
+
+        
+    
+    
+            marker_ae5569e46c5f54a3986fafa8b014fe48.bindTooltip(
+                `<div>
+                     SPKLU Voltron
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ae5569e46c5f54a3986fafa8b014fe48.setIcon(icon_47f65894da1147b02fec32107b7dfc2f);
+            
+    
+            var marker_661c90ae583d72348f13ac8ef65ce190 = L.marker(
+                [-6.1508182, 106.8421377],
+                {
+}
+            ).addTo(map_f516e6c5655190262939480113e38b53);
+        
+    
+            var icon_b44854ead33e9c0baef7e54c60dd5573 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ea2cf733647db3e989bba8761c059f3b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_35dd81ea849db215ea6a4202414ea78c = $(`<div id="html_35dd81ea849db215ea6a4202414ea78c" style="width: 100.0%; height: 100.0%;">SPKLU Chargeplus<br>Alamat : Arena Pekan Raya Jakarta - Kemayoran, Jl. H. Benyamin Sueb No.23, RW.10, Pademangan Timur</div>`)[0];
+                popup_ea2cf733647db3e989bba8761c059f3b.setContent(html_35dd81ea849db215ea6a4202414ea78c);
+            
+        
+
+        marker_661c90ae583d72348f13ac8ef65ce190.bindPopup(popup_ea2cf733647db3e989bba8761c059f3b)
+        ;
+
+        
+    
+    
+            marker_661c90ae583d72348f13ac8ef65ce190.bindTooltip(
+                `<div>
+                     SPKLU Chargeplus
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_661c90ae583d72348f13ac8ef65ce190.setIcon(icon_b44854ead33e9c0baef7e54c60dd5573);
+            
+    
+            var marker_15c9fd891d90ca884d9c8fd66c14ab28 = L.marker(
+                [-6.207706, 106.7947264],
+                {
+}
+            ).addTo(map_f516e6c5655190262939480113e38b53);
+        
+    
+            var icon_6e9555a57d6fe5398f2efa59cd30965a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f1a73d65b885e043560b57b9b25c8483 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_af8ed76e8dced69745109415827b4511 = $(`<div id="html_af8ed76e8dced69745109415827b4511" style="width: 100.0%; height: 100.0%;">Ranking 1<br>SPKLU Charge+<br>Cost : 8.59</div>`)[0];
+                popup_f1a73d65b885e043560b57b9b25c8483.setContent(html_af8ed76e8dced69745109415827b4511);
+            
+        
+
+        marker_15c9fd891d90ca884d9c8fd66c14ab28.bindPopup(popup_f1a73d65b885e043560b57b9b25c8483)
+        ;
+
+        
+    
+    
+            marker_15c9fd891d90ca884d9c8fd66c14ab28.bindTooltip(
+                `<div>
+                     SPKLU Ranking 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_15c9fd891d90ca884d9c8fd66c14ab28.setIcon(icon_6e9555a57d6fe5398f2efa59cd30965a);
+            
+    
+            var marker_927a0b68bca23c0a62d563a4794c4a93 = L.marker(
+                [-6.2129599, 106.7959685],
+                {
+}
+            ).addTo(map_f516e6c5655190262939480113e38b53);
+        
+    
+            var icon_84906c1022e4faf167f35101bae33b86 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_15df4d27601c7455a510e0b6ab3f3ac4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5b62fcf345a3302f4013bb5c4e69f3b5 = $(`<div id="html_5b62fcf345a3302f4013bb5c4e69f3b5" style="width: 100.0%; height: 100.0%;">Ranking 2<br>SPKLU Charge+<br>Cost : 8.84</div>`)[0];
+                popup_15df4d27601c7455a510e0b6ab3f3ac4.setContent(html_5b62fcf345a3302f4013bb5c4e69f3b5);
+            
+        
+
+        marker_927a0b68bca23c0a62d563a4794c4a93.bindPopup(popup_15df4d27601c7455a510e0b6ab3f3ac4)
+        ;
+
+        
+    
+    
+            marker_927a0b68bca23c0a62d563a4794c4a93.bindTooltip(
+                `<div>
+                     SPKLU Ranking 2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_927a0b68bca23c0a62d563a4794c4a93.setIcon(icon_84906c1022e4faf167f35101bae33b86);
+            
+    
+            var marker_5d299df18ea5b04a2d59fdedc99490c9 = L.marker(
+                [-6.2211419, 106.7991438],
+                {
+}
+            ).addTo(map_f516e6c5655190262939480113e38b53);
+        
+    
+            var icon_5c12a197ccbbce07ee7762866c8b49d4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_19fce21c6bb7fdb11953975a7698330d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dbd587ddbdab71237e2589b185baa16b = $(`<div id="html_dbd587ddbdab71237e2589b185baa16b" style="width: 100.0%; height: 100.0%;">Ranking 3<br>SPKLU BMW Destination<br>Cost : 24.1</div>`)[0];
+                popup_19fce21c6bb7fdb11953975a7698330d.setContent(html_dbd587ddbdab71237e2589b185baa16b);
+            
+        
+
+        marker_5d299df18ea5b04a2d59fdedc99490c9.bindPopup(popup_19fce21c6bb7fdb11953975a7698330d)
+        ;
+
+        
+    
+    
+            marker_5d299df18ea5b04a2d59fdedc99490c9.bindTooltip(
+                `<div>
+                     SPKLU Ranking 3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5d299df18ea5b04a2d59fdedc99490c9.setIcon(icon_5c12a197ccbbce07ee7762866c8b49d4);
+            
+    
+            var poly_line_afedc61bcbf290dbdf0aefca1581ede4 = L.polyline(
+                [[-6.209409, 106.792534], [-6.209339, 106.792493], [-6.209298, 106.792453], [-6.209278, 106.792422], [-6.209272, 106.792399], [-6.209252, 106.792332], [-6.209237, 106.792227], [-6.209218, 106.792137], [-6.209184, 106.792046], [-6.209143, 106.791966], [-6.209093, 106.791909], [-6.20896, 106.791824], [-6.208879, 106.791781], [-6.208779, 106.791762], [-6.208727, 106.791766], [-6.208658, 106.791789], [-6.208576, 106.791842], [-6.208422, 106.791905], [-6.208254, 106.791974], [-6.208192, 106.792002], [-6.208161, 106.792029], [-6.208122, 106.792088], [-6.208077, 106.792145], [-6.208057, 106.792175], [-6.208031, 106.792201], [-6.20795, 106.792234], [-6.207882, 106.792253], [-6.207794, 106.792268], [-6.207652, 106.791563], [-6.207602, 106.791569], [-6.207649, 106.791833], [-6.207746, 106.792328], [-6.207747, 106.792337], [-6.207774, 106.792474], [-6.207778, 106.792574], [-6.207774, 106.792647], [-6.207739, 106.792994], [-6.207727, 106.793284], [-6.207714, 106.793593], [-6.207685, 106.794057], [-6.207658, 106.794477], [-6.207656, 106.79452], [-6.20759, 106.795571], [-6.20755, 106.795968], [-6.20754, 106.796028], [-6.207516, 106.796075], [-6.207458, 106.796132], [-6.207114, 106.796199], [-6.206911, 106.796232], [-6.206535, 106.796295], [-6.206381, 106.796335], [-6.206193, 106.79639], [-6.2062, 106.796438], [-6.206591, 106.796342], [-6.206906, 106.796288], [-6.207116, 106.796257], [-6.207486, 106.796179], [-6.207547, 106.796154], [-6.207579, 106.796113], [-6.207606, 106.796064], [-6.207617, 106.795984], [-6.207652, 106.795641], [-6.207655, 106.795574], [-6.207701, 106.794724], [-6.207706, 106.794724]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_f516e6c5655190262939480113e38b53);
+        
+</script>
+</html>
